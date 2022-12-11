@@ -1,0 +1,1 @@
+document.getElementById("email-link").innerHTML = localStorage.getItem("email");

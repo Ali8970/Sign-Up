@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 20px;
+    width: 270px;
+  }
+  .welcome img {
+    width: 250px;
+    height: 250px;
+  }
+  body {
+    padding: 50px 0;
+  }
+}

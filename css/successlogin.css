@@ -1,0 +1,36 @@
+body {
+  background: url("../img/Welcome screen.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.welcome {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 9px;
+}
+.welcome img {
+  width: 350px;
+  height: 250px;
+}
+.welcome h2 {
+  font-size: 30px;
+}
+
+.welcome button {
+  background: linear-gradient(113.87deg, #2663df 14.81%, #758ff0 88.76%);
+  box-shadow: 0px 6px 18px #9cadf2;
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}

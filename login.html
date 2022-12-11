@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <title>Task</title>
+    </head>
+    <body>
+        <!-- onsubmit="window.location='../successlogin/index.html'" -->
+        <div class="welcome">
+            <img src="./img/Image Placeholder2.png" alt="Placeholder">
+            <div class="text">
+                <h2>Create Account</h2>
+                <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+                <form action="successlogin.html"
+                    method="get"
+                    id="submit">
+                    <div class="input">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="text" name="username" id="username"
+                            value=""
+                            placeholder="Username" minlength="5"
+                            maxlength="15" required>
+                    </div>
+                    <div class="input">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="email" name="email" value=""
+                            placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <input type="password" name="password" value=""
+                            placeholder="Password"
+                            minlength="8" required>
+                    </div>
+                    <div class="input">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <input type="password" name="confirm password" value=""
+                            placeholder="Confirm password"
+                            minlength="8"
+                            required>
+                    </div>
+
+                    <button type="submit" onclick="passValue()">Create
+                        Account</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="./js/login.js"></script>
+    </body>
+</html>
